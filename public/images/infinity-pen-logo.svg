@@ -1,0 +1,27 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="95" fill="#FFFFFF" stroke="#C88A57" stroke-width="2"/>
+  
+  <!-- Pen body -->
+  <g transform="translate(100, 100) rotate(-25)">
+    <!-- Main barrel -->
+    <rect x="-8" y="-45" width="16" height="80" rx="8" fill="#C88A57"/>
+    
+    <!-- Copper gradient section -->
+    <rect x="-6" y="-40" width="12" height="35" rx="6" fill="#D4A574" opacity="0.6"/>
+    
+    <!-- Clip -->
+    <rect x="-3" y="-50" width="6" height="12" fill="#94D2BD"/>
+    
+    <!-- Tip -->
+    <path d="M -4 35 L 0 45 L 4 35 Z" fill="#1A1A1A"/>
+    
+    <!-- Shine effect -->
+    <ellipse cx="-3" cy="-20" rx="2" ry="15" fill="#FFFFFF" opacity="0.5"/>
+  </g>
+  
+  <!-- Text -->
+  <text x="100" y="165" font-size="18" font-weight="bold" text-anchor="middle" fill="#C88A57" font-family="Arial, sans-serif">
+    InfinityPen
+  </text>
+</svg>
