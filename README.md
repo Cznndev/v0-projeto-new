@@ -11,6 +11,6 @@ Sistema completo de e-commerce para produtos de skincare masculino com agendamen
 ### Passos para Deploy
 
 1. **Clone o repositório**
-```bash
+\`\`\`bash
 git clone <seu-repositorio>
 cd nam-skincare
